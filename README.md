@@ -10,4 +10,5 @@ This is a web app product manager. You can monitor online orders and stock of yo
 * [Angular](https://angular.io/) and TypeScript for client-side code.
 * [Webpack](https://webpack.js.org/) for building and bundling client-side resources.
 * [Bulma](http://bulma.io/) for layout and stylinging. 
+* [Mongo](https://www.mongodb.com/) for database.
 

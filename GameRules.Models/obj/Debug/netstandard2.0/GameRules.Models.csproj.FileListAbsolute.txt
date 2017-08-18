@@ -1,0 +1,16 @@
+C:\git\GameRules\GameRules.Api\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.deps.json
+C:\git\GameRules\GameRules.Api\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.dll
+C:\git\GameRules\GameRules.Api\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.pdb
+C:\git\GameRules\GameRules.Api\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.csproj.CoreCompileInputs.cache
+C:\git\GameRules\GameRules.Api\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.AssemblyInfoInputs.cache
+C:\git\GameRules\GameRules.Api\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.AssemblyInfo.cs
+C:\git\GameRules\GameRules.Api\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.dll
+C:\git\GameRules\GameRules.Api\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.pdb
+C:\git\GameRules\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.deps.json
+C:\git\GameRules\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.dll
+C:\git\GameRules\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.pdb
+C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.csproj.CoreCompileInputs.cache
+C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.AssemblyInfoInputs.cache
+C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.AssemblyInfo.cs
+C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.dll
+C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.pdb

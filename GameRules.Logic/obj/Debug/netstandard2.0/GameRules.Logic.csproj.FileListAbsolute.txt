@@ -1,0 +1,8 @@
+C:\git\GameRules\GameRules.Logic\bin\Debug\netstandard2.0\GameRules.Logic.deps.json
+C:\git\GameRules\GameRules.Logic\bin\Debug\netstandard2.0\GameRules.Logic.dll
+C:\git\GameRules\GameRules.Logic\bin\Debug\netstandard2.0\GameRules.Logic.pdb
+C:\git\GameRules\GameRules.Logic\obj\Debug\netstandard2.0\GameRules.Logic.csproj.CoreCompileInputs.cache
+C:\git\GameRules\GameRules.Logic\obj\Debug\netstandard2.0\GameRules.Logic.AssemblyInfoInputs.cache
+C:\git\GameRules\GameRules.Logic\obj\Debug\netstandard2.0\GameRules.Logic.AssemblyInfo.cs
+C:\git\GameRules\GameRules.Logic\obj\Debug\netstandard2.0\GameRules.Logic.dll
+C:\git\GameRules\GameRules.Logic\obj\Debug\netstandard2.0\GameRules.Logic.pdb

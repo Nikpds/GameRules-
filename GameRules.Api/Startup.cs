@@ -1,20 +1,36 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using GameRules.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using MongoDB.Driver;
 
-namespace net2
+namespace GameRules.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private string dbConectionString { get; }
+        private MongoUrl mongoUrl { get; }
+        private Context context { get; }
+
+        public Startup(IHostingEnvironment env)
         {
-            Configuration = configuration;
+            // var builder = new ConfigurationBuilder()
+            //     .SetBasePath(env.ContentRootPath)
+            //     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            // Configuration = builder.Build();
+
+            // dbConectionString = Configuration.GetConnectionString("DefaultConnection");
+            dbConectionString = "mongodb://localhost";
+            mongoUrl = new MongoUrl(dbConectionString);
+
+            context = new Context(dbConectionString);
         }
 
         public IConfiguration Configuration { get; }
@@ -31,28 +47,9 @@ namespace net2
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
-                {
-                    HotModuleReplacement = true
-                });
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStaticFiles();
-
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-
-                routes.MapSpaFallbackRoute(
-                    name: "spa-fallback",
-                    defaults: new { controller = "Home", action = "Index" });
-            });
+            app.UseMvc();
         }
     }
 }

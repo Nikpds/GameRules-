@@ -1,0 +1,16 @@
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Api.deps.json
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Api.runtimeconfig.json
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Api.runtimeconfig.dev.json
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Api.dll
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Api.pdb
+C:\git\GameRules\GameRules.Api\obj\Debug\netcoreapp2.0\GameRules.Api.csproj.CoreCompileInputs.cache
+C:\git\GameRules\GameRules.Api\obj\Debug\netcoreapp2.0\GameRules.Api.AssemblyInfoInputs.cache
+C:\git\GameRules\GameRules.Api\obj\Debug\netcoreapp2.0\GameRules.Api.AssemblyInfo.cs
+C:\git\GameRules\GameRules.Api\obj\Debug\netcoreapp2.0\GameRules.Api.dll
+C:\git\GameRules\GameRules.Api\obj\Debug\netcoreapp2.0\GameRules.Api.pdb
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Logic.dll
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Models.dll
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Repository.dll
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Logic.pdb
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Repository.pdb
+C:\git\GameRules\GameRules.Api\bin\Debug\netcoreapp2.0\GameRules.Models.pdb

@@ -1,0 +1,10 @@
+C:\git\GameRules\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Repository.deps.json
+C:\git\GameRules\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Repository.dll
+C:\git\GameRules\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Repository.pdb
+C:\git\GameRules\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Models.dll
+C:\git\GameRules\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Models.pdb
+C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.csproj.CoreCompileInputs.cache
+C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.AssemblyInfoInputs.cache
+C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.AssemblyInfo.cs
+C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.dll
+C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.pdb

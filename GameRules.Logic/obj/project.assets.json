@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "8Xe2EIx0naaol6hSD/laNiYaNZtOAX7Tv6PyGAuZs8a98V99jkXjZrTcWbjGEGqhmLoqcvUp4CewwAeLt4aCRA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -177,23 +177,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nick\\.nuget\\packages\\": {},
+    "C:\\Users\\Νίκος\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\GameRules\\GameRules.Logic\\GameRules.Logic.csproj",
+      "projectUniqueName": "D:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj",
       "projectName": "GameRules.Logic",
-      "projectPath": "C:\\git\\GameRules\\GameRules.Logic\\GameRules.Logic.csproj",
-      "packagesPath": "C:\\Users\\nick\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\GameRules\\GameRules.Logic\\obj\\",
+      "projectPath": "D:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj",
+      "packagesPath": "C:\\Users\\Νίκος\\.nuget\\packages\\",
+      "outputPath": "D:\\git\\GameRules-\\GameRules.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Νίκος\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

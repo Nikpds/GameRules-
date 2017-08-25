@@ -1,0 +1,4 @@
+D:\git\GameRules-\GameRules.Api\bin\Debug\netcoreapp2.0\net2.deps.json
+D:\git\GameRules-\GameRules.Api\bin\Debug\netcoreapp2.0\net2.runtimeconfig.json
+D:\git\GameRules-\GameRules.Api\bin\Debug\netcoreapp2.0\net2.runtimeconfig.dev.json
+D:\git\GameRules-\GameRules.Api\obj\Debug\netcoreapp2.0\net2.AssemblyInfo.cs

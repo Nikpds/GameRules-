@@ -12,13 +12,15 @@ import { UtilityService } from './utility.service';
     CommonModule
   ],
   declarations: [
+   
+  ],
+  providers: [
     ToastrService,
     UtilityService,
     BaseService,
     LoaderService,
     PaginationService
-  ],
-  providers: []
+  ]
 
 })
 export class CommonPartsModule { }

@@ -14,3 +14,11 @@ C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.Asse
 C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.AssemblyInfo.cs
 C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.dll
 C:\git\GameRules\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.pdb
+D:\git\GameRules-\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.deps.json
+D:\git\GameRules-\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.dll
+D:\git\GameRules-\GameRules.Models\bin\Debug\netstandard2.0\GameRules.Models.pdb
+D:\git\GameRules-\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.csproj.CoreCompileInputs.cache
+D:\git\GameRules-\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.AssemblyInfoInputs.cache
+D:\git\GameRules-\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.AssemblyInfo.cs
+D:\git\GameRules-\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.dll
+D:\git\GameRules-\GameRules.Models\obj\Debug\netstandard2.0\GameRules.Models.pdb

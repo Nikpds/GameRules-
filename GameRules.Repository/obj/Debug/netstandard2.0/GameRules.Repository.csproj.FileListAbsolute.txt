@@ -8,3 +8,13 @@ C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Reposit
 C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.AssemblyInfo.cs
 C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.dll
 C:\git\GameRules\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.pdb
+D:\git\GameRules-\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Repository.deps.json
+D:\git\GameRules-\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Repository.dll
+D:\git\GameRules-\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Repository.pdb
+D:\git\GameRules-\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Models.dll
+D:\git\GameRules-\GameRules.Repository\bin\Debug\netstandard2.0\GameRules.Models.pdb
+D:\git\GameRules-\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.csproj.CoreCompileInputs.cache
+D:\git\GameRules-\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.AssemblyInfoInputs.cache
+D:\git\GameRules-\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.AssemblyInfo.cs
+D:\git\GameRules-\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.dll
+D:\git\GameRules-\GameRules.Repository\obj\Debug\netstandard2.0\GameRules.Repository.pdb

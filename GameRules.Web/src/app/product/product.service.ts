@@ -6,6 +6,7 @@ import 'rxjs/add/operator/catch';
 
 import { environment } from '../../environments/environment';
 
+import { PageOptions } from '../common/pagination.service';
 import { Product } from './product.model';
 import { BaseService } from '../common/base.service';
 import { ToastrService } from '../common/toastr.service';
@@ -19,9 +20,9 @@ export class ProductService {
     private toastr: ToastrService) { }
 
 
-    getProducts(): Observable<Array<Product>> {
-      return this.base.get(this.productUrl)
-        .map((res: Response) => res.json())
-        .catch((error: string) => Observable.throw(error || 'Server error'))
-    }
+  getProducts(options: PageOptions<Product>): Observable<PageOptions<Product>> {
+    return this.base.post(this.productUrl + '/paged', options)
+      .map((res: Response) => res.json())
+      .catch((error: string) => Observable.throw(error || 'Server error'))
+  }
 }

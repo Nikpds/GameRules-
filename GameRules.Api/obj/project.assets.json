@@ -12916,11 +12916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\GameRules-\\GameRules.Api\\GameRules.Api.csproj",
+      "projectUniqueName": "d:\\git\\GameRules-\\GameRules.Api\\GameRules.Api.csproj",
       "projectName": "GameRules.Api",
-      "projectPath": "D:\\git\\GameRules-\\GameRules.Api\\GameRules.Api.csproj",
+      "projectPath": "d:\\git\\GameRules-\\GameRules.Api\\GameRules.Api.csproj",
       "packagesPath": "C:\\Users\\Νίκος\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\GameRules-\\GameRules.Api\\obj\\",
+      "outputPath": "d:\\git\\GameRules-\\GameRules.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12939,14 +12939,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj": {
-              "projectPath": "D:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj"
+            "d:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj": {
+              "projectPath": "d:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj"
             },
-            "D:\\git\\GameRules-\\GameRules.Repository\\GameRules.Repository.csproj": {
-              "projectPath": "D:\\git\\GameRules-\\GameRules.Repository\\GameRules.Repository.csproj"
+            "d:\\git\\GameRules-\\GameRules.Repository\\GameRules.Repository.csproj": {
+              "projectPath": "d:\\git\\GameRules-\\GameRules.Repository\\GameRules.Repository.csproj"
             },
-            "D:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj": {
-              "projectPath": "D:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj"
+            "d:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj": {
+              "projectPath": "d:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj"
             }
           }
         }

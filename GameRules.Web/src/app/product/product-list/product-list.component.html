@@ -1,42 +1,149 @@
-<div class="columns is-gapless">
-  <div class="column is-12">
-  <table class="table is-striped is-fullwidth">
-      <thead>
-          <tr>
-            <th>AA</th>
-            <th>Availability</th>
-            <th>SiteStock</th>
-            <th>Title</th> 
-            <th>EchoStock</th>
-            <th>KaissaStock</th>
-            <th>KaissaId</th>
-            <th>BlackfireId</th>
-            <th>SiteId</th>
-            <th>InitialPrice</th>
-            <th>DiscountPrice</th>
-            <th>Updated</th>
-            <th>Registered</th>
-            <th>Photo</th>
-          </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let pro of products;let i = index">
-              <td>{{i + 1}}</td>
-              <td>{{pro.availability}}</td>
-              <td>{{pro.siteStock}}</td>
-              <td>{{pro.title}}</td>
-              <td>{{pro.echoStock}}</td>
-              <td>{{pro.kaissaStock}}</td>
-              <td>{{pro.kaissaId}}</td>
-              <td>{{pro.blackfireId}}</td>
-              <td>{{pro.siteId}}</td>
-              <td>{{pro.initialPrice}}</td>
-              <td>{{pro.discountPrice}}</td>
-              <td>{{pro.updated}}</td>
-              <td>{{pro.registered}}</td>
-              <td>{{pro.photoLink}}</td>
-            </tr>
-          </tbody>
-  </table>
+<div class="columns is-gapless is-multiline">
+  <div class="column bottom-20 is-12">
+    <nav class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label is-small">Αποτελέσματα</label>
+            </div>
+            <div class="field-body">
+              <div class="field ">
+                <div class="control">
+                  <div class="select is-fullwidth is-small">
+                    <select [(ngModel)]="pageOptions.pageSize" (change)="changePageSize()">
+                          <option value="5">5</option>
+                          <option value="10">10</option>
+                          <option value="20">20</option>
+                          <option value="50">50</option>
+                        </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="level-right">
+        <div class="level-item">
+          <div class="field has-addons">
+            <p class="control">
+              <input class="input is-small" [(ngModel)]="searchTerm" (keyup.enter)="searchProduct()" type="text" placeholder="Βρές προιόν">
+            </p>
+            <p class="control">
+              <button class="button is-small is-primary" (click)="searchProduct()">
+                    Αναζήτηση
+                  </button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </nav>
   </div>
+  <div class="column bottom-20">
+    <nav class="pagination is-centered is-small">
+      <a class="pagination-previous" (click)="firstPage()">
+            <span class="icon is-small"><i class="fa fa-fast-backward"></i></span>
+            Πρώτη
+          </a>
+      <a class="pagination-previous" (click)="previousPage()">
+             <span class="icon is-small"><i class="fa fa-step-backward"></i></span>
+            Προηγούμενη
+          </a>
+      <a class="pagination-next" (click)="nextPage()">
+            Επόμενη
+           <span class="icon is-small"><i class="fa fa-step-forward"></i></span>
+          </a>
+      <a class="pagination-next" (click)="lastPage()">
+            Τελευταία &nbsp;
+            <span class="icon is-small"><i class="fa fa-fast-forward"></i></span>
+          </a>
+      <ul class="pagination-list">
+        <li *ngFor="let page of pageOptions.pages">
+          <a class="pagination-link" [ngClass]="{'is-current': pageOptions.currentPage == page}" (click)="setPage(page)">{{page}}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="column is-12" *ngIf="pageOptions.data">
+    <table class="table is-striped is-fullwidth">
+      <thead>
+        <tr>
+          <th>AA</th>
+          <th>
+            <a (click)="orderBy('Availability')">Availability</a>
+            <span class="icon is-small" *ngIf="pageOptions.orderBy == 'Availability'">
+                <i class="fa fa-caret-down" [ngClass]="{'fa-caret-down': !pageOptions.descending, 'fa-caret-up': pageOptions.descending}"></i>
+              </span>
+          </th>
+          <th>SiteStock</th>
+          <th>
+            <a (click)="orderBy('Title')">Title</a>
+            <span class="icon is-small" *ngIf="pageOptions.orderBy == 'Title'">
+                  <i class="fa fa-caret-down" [ngClass]="{'fa-caret-down': !pageOptions.descending, 'fa-caret-up': pageOptions.descending}"></i>
+                </span>
+          </th>
+          <th>EchoStock</th>
+          <th>
+            <a (click)="orderBy('KaissaStock')">KaissaStock</a>
+            <span class="icon is-small" *ngIf="pageOptions.orderBy == 'KaissaStock'">
+                    <i class="fa fa-caret-down" [ngClass]="{'fa-caret-down': !pageOptions.descending, 'fa-caret-up': pageOptions.descending}"></i>
+                  </span>
+          </th>
+          <th>KaissaId</th>
+          <th>BlackfireId</th>
+          <th>SiteId</th>
+          <th>
+            <a (click)="orderBy('InitialPrice')">InitialPrice</a>
+            <span class="icon is-small" *ngIf="pageOptions.orderBy == 'InitialPrice'">
+                      <i class="fa fa-caret-down" [ngClass]="{'fa-caret-down': !pageOptions.descending, 'fa-caret-up': pageOptions.descending}"></i>
+                    </span>
+          </th>
+          <th>DiscountPrice</th>
+          <th style="width:105px">
+            <a (click)="orderBy('Updated')">Updated</a>
+            <span class="icon is-small" *ngIf="pageOptions.orderBy == 'Updated'">
+               <i class="fa fa-caret-down" [ngClass]="{'fa-caret-down': !pageOptions.descending, 'fa-caret-up': pageOptions.descending}"></i>
+            </span>
+          </th>
+          <th>
+            <a (click)="orderBy('Registered')">Registered</a>
+            <span class="icon is-small" *ngIf="pageOptions.orderBy == 'Registered'">
+                 <i class="fa fa-caret-down" [ngClass]="{'fa-caret-down': !pageOptions.descending, 'fa-caret-up': pageOptions.descending}"></i>
+              </span>
+          </th>
+          <th>Photo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pro of pageOptions.data;let i = index">
+          <td>{{i + 1 + (pageOptions.currentPage == 1 ? 0 : (pageOptions.currentPage-1)*pageOptions.pageSize) }}</td>
+          <td>{{pro.availability}}</td>
+          <td>{{convertType(pro.siteStock)}}</td>
+          <td>{{pro.title}}</td>
+          <td>{{pro.echoStock}}</td>
+          <td [ngClass]="{'has-text-danger':pro.kaissaStock == 0}">{{pro.kaissaStock}}</td>
+          <td>{{pro.kaissaId}}</td>
+          <td>{{pro.blackfireId}}</td>
+          <td>{{pro.siteId}}</td>
+          <td>{{pro.initialPrice}}</td>
+          <td>{{pro.discountPrice}}</td>
+          <td>{{pro.updated|date:'dd-MM-yyyy'}}</td>
+          <td>{{pro.registered|date:'dd-MM-yyyy'}}</td>
+          <td><a (click)="showImage(pro.photoLink)">Image</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal" [ngClass]="{'is-active':selectedPhoto}" *ngIf="selectedPhoto">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <p class="image is-4by3">
+      <img [src]="selectedPhoto" alt="as">
+    </p>
+  </div>
+  <button class="modal-close is-large" (click)="closeImage()" aria-label="close"></button>
 </div>

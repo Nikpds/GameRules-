@@ -4197,11 +4197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj",
+      "projectUniqueName": "d:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj",
       "projectName": "GameRules.Models",
-      "projectPath": "D:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj",
+      "projectPath": "d:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj",
       "packagesPath": "C:\\Users\\Νίκος\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\GameRules-\\GameRules.Models\\obj\\",
+      "outputPath": "d:\\git\\GameRules-\\GameRules.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

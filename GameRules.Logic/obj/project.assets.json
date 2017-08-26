@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj",
+      "projectUniqueName": "d:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj",
       "projectName": "GameRules.Logic",
-      "projectPath": "D:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj",
+      "projectPath": "d:\\git\\GameRules-\\GameRules.Logic\\GameRules.Logic.csproj",
       "packagesPath": "C:\\Users\\Νίκος\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\GameRules-\\GameRules.Logic\\obj\\",
+      "outputPath": "d:\\git\\GameRules-\\GameRules.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

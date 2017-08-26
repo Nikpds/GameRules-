@@ -4216,11 +4216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\GameRules-\\GameRules.Repository\\GameRules.Repository.csproj",
+      "projectUniqueName": "d:\\git\\GameRules-\\GameRules.Repository\\GameRules.Repository.csproj",
       "projectName": "GameRules.Repository",
-      "projectPath": "D:\\git\\GameRules-\\GameRules.Repository\\GameRules.Repository.csproj",
+      "projectPath": "d:\\git\\GameRules-\\GameRules.Repository\\GameRules.Repository.csproj",
       "packagesPath": "C:\\Users\\Νίκος\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\GameRules-\\GameRules.Repository\\obj\\",
+      "outputPath": "d:\\git\\GameRules-\\GameRules.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4239,8 +4239,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj": {
-              "projectPath": "D:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj"
+            "d:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj": {
+              "projectPath": "d:\\git\\GameRules-\\GameRules.Models\\GameRules.Models.csproj"
             }
           }
         }

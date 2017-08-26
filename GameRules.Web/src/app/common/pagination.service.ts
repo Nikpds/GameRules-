@@ -27,7 +27,7 @@ export class PaginationService {
 
     let pages = Array.from(Array(endPage + 1).keys());
     pages.splice(0, startPage);
-
+console.log("pages " + pages);
     return pages;
 
   }
@@ -72,4 +72,20 @@ export class PaginationService {
     };
   }
 
+}
+export class PageOptions<T> {
+  currentPage: number;
+  pageSize: string;
+  orderBy: string;
+  descending: boolean;
+  totalCount: number;
+  totalPages: number;
+  data: Array<T>;
+  pages:Array<number>;
+  searchFilter: string;
+
+  constructor() {
+    this.data = new Array<T>();
+    this.pages = new Array<number>();
+  }
 }

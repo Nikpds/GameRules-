@@ -6,14 +6,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { ToastModule } from 'ng2-toastr';
-import { CommonPartsModule } from './common/common-parts.module'
+import { CommonPartsModule } from './common/common-parts.module';
+import { ProductModule } from './product/product.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Route[] = [
   { path: 'home', component: HomeComponent },
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
@@ -28,6 +29,7 @@ const routes: Route[] = [
     RouterModule.forRoot(routes),
     FormsModule,
     ToastModule,
+    ProductModule,
     CommonPartsModule,
     HttpModule
   ],

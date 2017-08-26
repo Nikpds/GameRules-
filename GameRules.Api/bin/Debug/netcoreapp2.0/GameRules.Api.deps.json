@@ -27,6 +27,7 @@
           "GameRules.Models": "1.0.0",
           "GameRules.Repository": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.0",
+          "Microsoft.AspNetCore.Cors": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "MongoDB.Driver": "2.4.4"
         },

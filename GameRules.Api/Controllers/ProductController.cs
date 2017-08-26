@@ -25,7 +25,7 @@ namespace GameRules.Api.Controllers
             {
                 var result = await _db.Products.GetAll();
 
-                return Ok("result");
+                return Ok(result);
             }
             catch (Exception exc)
             {
@@ -38,7 +38,7 @@ namespace GameRules.Api.Controllers
         {
             try
             {
-                pro.Name = "Game of thrones";
+                pro.Title = "Game of thrones";
 
                 var result = await _db.Products.Insert(pro);
 

@@ -1,0 +1,42 @@
+<div class="columns is-gapless">
+  <div class="column is-12">
+  <table class="table is-striped is-fullwidth">
+      <thead>
+          <tr>
+            <th>AA</th>
+            <th>Availability</th>
+            <th>SiteStock</th>
+            <th>Title</th> 
+            <th>EchoStock</th>
+            <th>KaissaStock</th>
+            <th>KaissaId</th>
+            <th>BlackfireId</th>
+            <th>SiteId</th>
+            <th>InitialPrice</th>
+            <th>DiscountPrice</th>
+            <th>Updated</th>
+            <th>Registered</th>
+            <th>Photo</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pro of products;let i = index">
+              <td>{{i + 1}}</td>
+              <td>{{pro.availability}}</td>
+              <td>{{pro.siteStock}}</td>
+              <td>{{pro.title}}</td>
+              <td>{{pro.echoStock}}</td>
+              <td>{{pro.kaissaStock}}</td>
+              <td>{{pro.kaissaId}}</td>
+              <td>{{pro.blackfireId}}</td>
+              <td>{{pro.siteId}}</td>
+              <td>{{pro.initialPrice}}</td>
+              <td>{{pro.discountPrice}}</td>
+              <td>{{pro.updated}}</td>
+              <td>{{pro.registered}}</td>
+              <td>{{pro.photoLink}}</td>
+            </tr>
+          </tbody>
+  </table>
+  </div>
+</div>
